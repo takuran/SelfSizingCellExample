@@ -8,11 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		6ED939C019C6761F007B98AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ED939BF19C6761F007B98AB /* AppDelegate.swift */; };
-		6ED939C219C6761F007B98AB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ED939C119C6761F007B98AB /* ViewController.swift */; };
 		6ED939C519C6761F007B98AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6ED939C319C6761F007B98AB /* Main.storyboard */; };
 		6ED939C719C6761F007B98AB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6ED939C619C6761F007B98AB /* Images.xcassets */; };
 		6ED939CA19C6761F007B98AB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6ED939C819C6761F007B98AB /* LaunchScreen.xib */; };
 		6ED939D619C6761F007B98AB /* SelfSizingCellExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ED939D519C6761F007B98AB /* SelfSizingCellExampleTests.swift */; };
+		6ED939E019C677C3007B98AB /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ED939DF19C677C3007B98AB /* CustomCell.swift */; };
+		6ED939E219C6780D007B98AB /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ED939E119C6780D007B98AB /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,13 +30,14 @@
 		6ED939BA19C6761F007B98AB /* SelfSizingCellExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SelfSizingCellExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6ED939BE19C6761F007B98AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6ED939BF19C6761F007B98AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		6ED939C119C6761F007B98AB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		6ED939C419C6761F007B98AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6ED939C619C6761F007B98AB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6ED939C919C6761F007B98AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		6ED939CF19C6761F007B98AB /* SelfSizingCellExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SelfSizingCellExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6ED939D419C6761F007B98AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6ED939D519C6761F007B98AB /* SelfSizingCellExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfSizingCellExampleTests.swift; sourceTree = "<group>"; };
+		6ED939DF19C677C3007B98AB /* CustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		6ED939E119C6780D007B98AB /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,11 +80,12 @@
 			isa = PBXGroup;
 			children = (
 				6ED939BF19C6761F007B98AB /* AppDelegate.swift */,
-				6ED939C119C6761F007B98AB /* ViewController.swift */,
 				6ED939C319C6761F007B98AB /* Main.storyboard */,
 				6ED939C619C6761F007B98AB /* Images.xcassets */,
 				6ED939C819C6761F007B98AB /* LaunchScreen.xib */,
 				6ED939BD19C6761F007B98AB /* Supporting Files */,
+				6ED939DF19C677C3007B98AB /* CustomCell.swift */,
+				6ED939E119C6780D007B98AB /* TableViewController.swift */,
 			);
 			path = SelfSizingCellExample;
 			sourceTree = "<group>";
@@ -212,8 +215,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6ED939C219C6761F007B98AB /* ViewController.swift in Sources */,
+				6ED939E019C677C3007B98AB /* CustomCell.swift in Sources */,
 				6ED939C019C6761F007B98AB /* AppDelegate.swift in Sources */,
+				6ED939E219C6780D007B98AB /* TableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
